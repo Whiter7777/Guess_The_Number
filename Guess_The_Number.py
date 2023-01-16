@@ -2,6 +2,7 @@ import tkinter as tk
 import tkinter.messagebox as mb
 import random as rnd
 
+
 class Window_start(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -112,3 +113,4 @@ class Window_next(tk.Tk):
 if __name__ == "__main__":
     window_start = Window_start()
     window_start.mainloop()
+
